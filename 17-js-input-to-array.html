@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>17-js-input-to-array.html</title>
+    <script>
+        let Td_name = []
+        function input_array(){
+            Td_name = parseInt(document.getElementById('output').value)
+            document.write(Td_name)
+        }
+    </script>
+</head>
+<body>
+    กรุณาป้อนชื่อ: <input type="text" name="" id="Fname">
+    <br>
+    <br>
+    <button onclick="Td_name">Submit</button>
+    <br>
+    <br>
+    <span div="output"></span>
+</body>
+
+<table border="1">
+    <tr>
+        <th>ลำดับ</th>
+        <th>ชื่อ</th>
+    </tr>
+    <script>
+        let n = 0
+        for (let i of name) {
+            n += 1
+            document.write('<tr>')
+            document.write('<td>'+ n +'</td>')
+            document.write('<td>'+ name[i]+'</td>')
+            document.write('</tr>')
+        }
+    </script>
+</table>
+</html>
